@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '20'
 
       - name: Cache dependencies
         uses: actions/cache@v2
@@ -28,8 +28,8 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: |
-          sed -i '5i\  "homepage": "/pages-demo-react",' ./package.json
-      - run: npm ci
+          sed -i '5i\  "homepage": "/variant-mapping-graphic",' ./package.json
+      - run: npm start
       - run: npm run build
       - run: cp build/index.html build/404.html
 
