@@ -30,7 +30,7 @@ jobs:
       - run: |
           sed -i '5i\  "homepage": "/variant-mapping-graphic",' ./package.json
       - run: npm install react-scripts
-      - run: npm start
+      - run: npm ci
       - run: npm run build
       - run: cp build/index.html build/404.html
 
