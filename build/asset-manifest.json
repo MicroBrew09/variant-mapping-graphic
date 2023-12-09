@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd201afe.css",
+    "main.js": "/static/js/main.534d4faa.js",
+    "static/media/variant-mapping-demo.mp4": "/static/media/variant-mapping-demo.032abdbf51544a38bab6.mp4",
+    "static/media/phospholipid-bilayer.PNG": "/static/media/phospholipid-bilayer.4b1cf89c063a5648abee.PNG",
+    "static/media/potassium-phospholipid-bilayer.PNG": "/static/media/potassium-phospholipid-bilayer.7bf3f360ab611b902aca.PNG",
+    "static/media/mapping-lookup.csv": "/static/media/mapping-lookup.a504ad4b97d53add241a.csv",
+    "index.html": "/index.html",
+    "main.fd201afe.css.map": "/static/css/main.fd201afe.css.map",
+    "main.534d4faa.js.map": "/static/js/main.534d4faa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd201afe.css",
+    "static/js/main.534d4faa.js"
+  ]
+}
